@@ -1,0 +1,79 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("First hub", "Midnight")
+ 
+--Asenal
+ 
+local Tab = Window:NewTab("Asenal")
+local Section = Tab:NewSection("Asenal")
+ 
+Section:NewButton("Script", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/kvpwyQRT')))()
+end)
+ 
+--MOKORO HUB
+ 
+local Tab = Window:NewTab("MOKORO HUB")
+local Section = Tab:NewSection("MOKORO HUB")
+ 
+Section:NewButton("Script", "ButtonInfo", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+ 
+--Stike Hub
+ 
+local Tab = Window:NewTab("Stike Hub")
+local Section = Tab:NewSection("Stike Hub")
+ 
+Section:NewButton("Script", "ButtonInfo", function()
+    getgenv().Color = Color3.fromRGB(0, 128, 255)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
+ 
+--Dino Hub
+ 
+local Tab = Window:NewTab("Dino Hub")
+local Section = Tab:NewSection("Dino Hub")
+ 
+Section:NewButton("Script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+end)
+ 
+--Center Hub
+ 
+local Tab = Window:NewTab("Center Hub")
+local Section = Tab:NewSection("Center Hub")
+ 
+Section:NewButton("Script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/CENTER-HUB/main/Blox%20Fruits"))()
+end)
+ 
+Section:NewButton("Script last pirate", "ButtonInfo", function()
+    oadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/Last-Pirates/main/Last%20Pirates%20CenterHub"))()
+end)
+ 
+--Mythic Hub
+ 
+local Tab = Window:NewTab("Mythic Hub")
+local Section = Tab:NewSection("Mythic Hub")
+ 
+Section:NewButton("Script Legend of speed", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MythicHub/SCRIPT-BY-MythicHub/main/LegenofSpeed.lua"))()
+end)
+ 
+Section:NewButton("Script Build a boat", "ButtonInfo", function()
+    _loadstring(game:HttpGet("https://raw.githubusercontent.com/Notcyberfin/Demon/main/Build%20A%20Boat.lua"))();
+end)
+ 
+Section:NewButton("Script BF", "ButtonInfo", function()
+    G.Color = Color3.fromRGB(222, 37, 0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MythicHub/SCRIPT-BY-MythicHub/main/BLOXFRUITFREE.lua'))();
+end)
+ 
+--HyperX Hub
+ 
+local Tab = Window:NewTab("HyperX Hub")
+local Section = Tab:NewSection("HyperX Hub")
+ 
+Section:NewButton("Script", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/ALLFREE/main/hyperx.lua"))()
+end)
